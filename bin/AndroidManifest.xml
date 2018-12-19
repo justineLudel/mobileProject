@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.mobileapp.infodesk"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="org.mobileapp.infodesk.LoginActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.mobileapp.infodesk.SignupActivity"
+            android:label="@string/title_activity_signup" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.mobileapp.infodesk.EventActivity"
+            android:label="@string/title_activity_event" >
+        </activity>
+        <activity
+            android:name="org.mobileapp.infodesk.MainActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name="org.mobileapp.infodesk.ComposeActivity"
+            android:label="@string/title_activity_compose" >
+        </activity>
+        <activity
+            android:name="org.mobileapp.infodesk.DraftsActivity"
+            android:label="@string/title_activity_drafts" >
+        </activity>
+        <activity
+            android:name="org.mobileapp.infodesk.MessagesActivity"
+            android:label="@string/title_activity_messages" >
+        </activity>
+        <activity
+            android:name="org.mobileapp.infodesk.OutboxActivity"
+            android:label="@string/title_activity_outbox" >
+        </activity>
+        <activity
+            android:name="org.mobileapp.infodesk.ReplyActivity"
+            android:label="@string/title_activity_reply" >
+        </activity>
+        <activity
+            android:name="org.mobileapp.infodesk.SentBoxActivity"
+            android:label="@string/title_activity_sent_box" >
+        </activity>
+        <activity
+            android:name="org.mobileapp.infodesk.AcademicActivity"
+            android:label="@string/title_activity_academic" >
+        </activity>
+        <activity
+            android:name="org.mobileapp.infodesk.AddNewsActivity"
+            android:label="@string/title_activity_add_news" >
+        </activity>
+        <activity
+            android:name="org.mobileapp.infodesk.NewsActivity"
+            android:label="@string/title_activity_news" >
+        </activity>
+        <activity
+            android:name="org.mobileapp.infodesk.CultureActivity"
+            android:label="@string/title_activity_culture" >
+        </activity>
+        <activity
+            android:name="org.mobileapp.infodesk.EditPostActivity"
+            android:label="@string/title_activity_edit_post" >
+        </activity>
+        <activity
+            android:name="org.mobileapp.infodesk.AddPostActivity"
+            android:label="@string/title_activity_add_post" >
+        </activity>
+        <activity
+            android:name="org.mobileapp.infodesk.NewsFeedActivity"
+            android:label="@string/title_activity_news_feed" >
+        </activity>
+        <activity
+            android:name="org.mobileapp.infodesk.ReadActivity"
+            android:label="@string/title_activity_read" >
+        </activity>
+        <activity
+            android:name="org.mobileapp.infodesk.SportsActivity"
+            android:label="@string/title_activity_sports" >
+        </activity>
+    </application>
+
+</manifest>
